@@ -1,0 +1,13 @@
+{
+  "title": "Vera's",
+  "pages": [
+    {
+      "path": "/projects",
+      "title": "Projects"
+    },
+    {
+      "path": "/contact",
+      "title": "Contact"
+    }
+  ]
+}

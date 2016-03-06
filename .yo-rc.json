@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "veras",
+    "style": "scss",
+    "postcss": false
+  }
+}

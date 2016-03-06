@@ -1,0 +1,84 @@
+$speed: 300ms;
+//$ease: ease-in-out;
+$easeIn: cubic-bezier(0, 1.5, 0.5, 1);
+$easeOut: ease-out;
+
+.project-item {
+
+  -webkit-transform-origin: 30%;
+  -moz-transform-origin: 30%;
+  -ms-transform-origin: 30%;
+  -o-transform-origin: 30%;
+
+  transition: all $speed $easeIn;
+  -webkit-transition: all $speed $easeIn;
+  -moz-transition: all $speed $easeIn;
+  -ms-transition: all $speed $easeIn;
+  -o-transition: all $speed $easeIn;
+  
+  &__link { 
+    display: block;
+    height: 100%;
+    position: relative;
+
+    &__image {
+      opacity: 1;
+    }
+
+    &__overlay {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0px;
+      margin-left: 5px;
+
+      width: 100%;
+      height: 100%;
+      text-align: center;
+
+      &__icon {
+        font-size: 50px;
+        line-height: 50px;
+      }
+
+      * {
+        color: #fff;
+      }
+    }
+  }
+
+  &:hover {
+    .project-item__link__image {
+      opacity: 0.7;
+    }
+    .project-item__link__overlay {
+      display: block;
+    }
+  }
+}
+
+.filter-enter {
+  opacity: 0;
+  transform: scale(0.2);
+}
+
+.filter-enter-active {
+  opacity: 0.9;
+  transform: scale(1);
+}
+
+.filter-leave {
+  opacity: 0.9;
+  transform: scale(1);
+}
+
+.filter-leave-active {
+  opacity: 0;
+  transform: scale(0.2);
+
+  transition: all $speed $easeOut;
+  -webkit-transition: all $speed $easeOut;
+  -moz-transition: all $speed $easeOut;
+  -ms-transition: all $speed $easeOut;
+  -o-transition: all $speed $easeOut;
+}

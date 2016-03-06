@@ -1,0 +1,52 @@
+{
+  "categories": [
+    "all",
+    "animation",
+    "illustration",
+    "storyboarding"
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "project 1",
+      "category": "illustration",
+      "thumbnail": "http://lorempixel.com/g/400/200/animals",
+      "about": "Some description for the project 1."
+    },
+    {
+      "id": "2",
+      "title": "project 2",
+      "category": "illustration",
+      "thumbnail": "http://lorempixel.com/g/400/200/people",
+      "about": "Some description for the project 2."
+    },
+    {
+      "id": "3",
+      "title": "project 3",
+      "category": "animation",
+      "thumbnail": "http://lorempixel.com/g/400/200/technics",
+      "about": "Some description for the project 3."
+    },
+    {
+      "id": "4",
+      "title": "project 4",
+      "category": "illustration",
+      "thumbnail": "http://lorempixel.com/g/400/200/nightlife",
+      "about": "Some description for the project 4."
+    },
+    {
+      "id": "5",
+      "title": "project 5",
+      "category": "animation",
+      "thumbnail": "http://lorempixel.com/g/400/200/food",
+      "about": "Some description for the project 5."
+    },
+    {
+      "id": "6",
+      "title": "project 6",
+      "category": "storyboarding",
+      "thumbnail": "http://lorempixel.com/g/400/200/city",
+      "about": "Some description for the project 6."
+    }
+  ]
+}
